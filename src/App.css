@@ -1,6 +1,63 @@
 .App{
     display: flex;
     flex-direction: column;
+    width: 95vw;
+    max-width: 750px;
+    height: 75vh;
+    border: 5px double blue;
+    margin: 20% auto;
+    background-color: silver;
+}
+
+.formDiv{
+    display: flex;
     justify-content: center;
+    height: 30%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.inputLabel{
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.inputField{
+    border-radius: none;
+    border: 1px solid navy;
+    height: 2rem;
+    margin: 0 auto;
+}
+.submitButton{
+    border-radius: 100vw;
+    border: 1px solid black;
+    width: 75%;
+    height: 20%;
+    margin: 0 auto;
+}
+.submitButton:active{
+    width: 70%;
+    height: 15%;
+}
+
+.outputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    height: 70%;
+}
+
+.reversedStringDiv h1, .palindromeCheckDiv h1{
+    color: navy;
+    font-size: 2rem;
+}
+
+.reversedStringDiv p, .palindromeCheckDiv p{
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
 }
