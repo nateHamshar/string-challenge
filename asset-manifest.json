@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/string-challenge/static/css/main.b8b4167c.css",
+    "main.js": "/string-challenge/static/js/main.f692a7dc.js",
+    "index.html": "/string-challenge/index.html",
+    "main.b8b4167c.css.map": "/string-challenge/static/css/main.b8b4167c.css.map",
+    "main.f692a7dc.js.map": "/string-challenge/static/js/main.f692a7dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8b4167c.css",
+    "static/js/main.f692a7dc.js"
+  ]
+}
